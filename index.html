@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matematica Simplă | Pregătire Personalizată 1-la-1 și de Grup</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Pregătire premium la matematică pentru gimnaziu și liceu. Meditații individuale 1-la-1 și în grupuri mici. Înțelege matematica simplu și logic!">
+  <meta name="keywords" content="meditatii matematica, pregatire matematica, bacalaureat matematica, evaluare nationala matematica, meditatii individual, lectii matematica">
+  <meta name="author" content="Matematica Simpla">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Matematica Simplă | Pregătire Personalizată">
+  <meta property="og:description" content="Meditații premium la matematică. Lecții 1-la-1 și de grup concepute pentru rezultate remarcabile.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=1200">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Background Grid & Blobs for visual styling -->
+  <div class="bg-grid"></div>
+  <div class="glow-blob blob-1"></div>
+  <div class="glow-blob blob-2"></div>
+
+  <!-- HEADER / NAVIGATION -->
+  <header id="main-header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <div class="logo-icon">Σ</div>
+        <span>SigmaMath</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#services">Servicii</a></li>
+        <li><a href="#calculator">Calculator Tarife</a></li>
+        <li><a href="#sandbox">Math Sandbox</a></li>
+        <li><a href="#benefits">Metodologie</a></li>
+        <li><a href="#faq">Întrebări</a></li>
+      </ul>
+      
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-secondary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Contact</a>
+      </div>
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <canvas id="hero-canvas" class="hero-canvas"></canvas>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="badge">
+            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
+            Înscrieri deschise pentru Noul Semestru
+          </div>
+          <h1 class="hero-title">
+            Matematica Devine <span class="gradient-accent-text">Simplă.</span><br>
+            Excelență prin Logică.
+          </h1>
+          <p class="hero-description">
+            Pregătire de elită la matematică, adaptată ritmului tău. Fie că preferi atenția completă într-o sesiune 1-la-1 sau dinamismul colaborativ al unui grup restrâns, te ghidăm spre nota maximă.
+          </p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">
+              Programează o Ședință Evaluare
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#calculator" class="btn btn-secondary">
+              Explorează Tarifele
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="math-geometry-container">
+            <div class="geometry-ring ring-1"></div>
+            <div class="geometry-ring ring-2"></div>
+            <div class="geometry-center">
+              <!-- Geometric complex shape representation -->
+              <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" stroke="url(#hero-gradient)" stroke-width="2" fill="none"/>
+                <polygon points="50,20 80,35 80,65 50,80 20,65 20,35" stroke="url(#hero-gradient)" stroke-width="1.5" fill="none" opacity="0.7"/>
+                <line x1="50" y1="5" x2="50" y2="95" stroke="url(#hero-gradient)" stroke-width="1" opacity="0.5"/>
+                <line x1="5" y1="25" x2="95" y2="75" stroke="url(#hero-gradient)" stroke-width="1" opacity="0.5"/>
+                <line x1="5" y1="75" x2="95" y2="25" stroke="url(#hero-gradient)" stroke-width="1" opacity="0.5"/>
+                <defs>
+                  <linearGradient id="hero-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00f2fe" />
+                    <stop offset="100%" stop-color="#8b5cf6" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Formate de Studiu</div>
+          <h2 class="section-title">Alege Modul în Care Vrei să <span class="gradient-accent-text">Înveți</span></h2>
+          <p class="section-subtitle">Fiecare elev are stilul său. Îți punem la dispoziție cele mai eficiente metode de învățare adaptate nevoilor tale academice.</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- 1 on 1 card -->
+          <div class="glass-card service-card">
+            <div class="service-icon">
+              <i data-lucide="user"></i>
+            </div>
+            <h3 class="service-title">Pregătire Individuală 1-la-1</h3>
+            <p class="service-desc">Focus 100% pe nevoile tale. Ritm personalizat, explicarea conceptelor până la înțelegerea deplină și atenție completă acordată progresului tău.</p>
+            
+            <ul class="service-features">
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Plan de studiu complet personalizat</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Flexibilitate maximă în programarea ședințelor</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Feedback instant și adaptare în timp real</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Pregătire intensivă pentru examene (Evaluare Națională, BAC)</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Suport 24/7 pe WhatsApp pentru teme dificile</span>
+              </li>
+            </ul>
+            
+            <a href="#contact" class="btn btn-secondary select-service-btn" data-service="1on1">Alege Pregătirea Individuală</a>
+          </div>
+          
+          <!-- Group card -->
+          <div class="glass-card service-card" style="border-color: rgba(0, 242, 254, 0.25);">
+            <div class="popular-tag">Cel mai popular</div>
+            <div class="service-icon" style="color: var(--accent);">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="service-title">Pregătire în Grup Restrâns</h3>
+            <p class="service-desc">Grupuri ultra-restrânse (3 - 5 elevi) de nivel similar. Învață prin colaborare, dezbatere de strategii de rezolvare și într-un mediu competitiv pozitiv.</p>
+            
+            <ul class="service-features">
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Grupuri formate strict pe baza nivelului curent</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Învățare interactivă cu simulări de examene</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Dezvoltarea abilităților de lucru în echipă și comunicare</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Tarif avantajos fără a sacrifica calitatea explicațiilor</span>
+              </li>
+              <li>
+                <i data-lucide="check-circle-2"></i>
+                <span>Acces la platformă comună pentru resurse și teste</span>
+              </li>
+            </ul>
+            
+            <a href="#contact" class="btn btn-primary select-service-btn" data-service="grup">Alege Pregătirea de Grup</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE CALCULATOR SECTION -->
+    <section class="section" id="calculator" style="background: rgba(255, 255, 255, 0.01);">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Configurator</div>
+          <h2 class="section-title">Calculează-ți Planul <span class="gradient-accent-text">Ideal</span></h2>
+          <p class="section-subtitle">Fără costuri ascunse. Folosește calculatorul nostru interactiv pentru a alege frecvența, tipul de studiu și clasa, obținând un preț estimat instantaneu.</p>
+        </div>
+        
+        <div class="glass-card calculator-container">
+          <div class="calculator-settings">
+            
+            <!-- Type of Study -->
+            <div class="calc-group">
+              <label class="calc-label">Tipul de Pregătire</label>
+              <div class="calc-grid two-cols">
+                <div class="calc-option selected" data-type="1on1">
+                  Individual (1-la-1)
+                </div>
+                <div class="calc-option" data-type="grup">
+                  Grup (3 - 5 elevi)
+                </div>
+              </div>
+            </div>
+            
+            <!-- Level / Class -->
+            <div class="calc-group">
+              <label class="calc-label">Nivelul de Studiu / Clasa</label>
+              <div class="calc-grid two-cols">
+                <div class="calc-option selected" data-level="gimnaziu">
+                  Gimnaziu (V-VIII)
+                </div>
+                <div class="calc-option" data-level="liceu">
+                  Liceu / BAC (IX-XII)
+                </div>
+              </div>
+            </div>
+            
+            <!-- Frequency Slider -->
+            <div class="calc-group">
+              <div class="calc-label">
+                <span>Frecvență Ședințe</span>
+                <span><span id="frequency-val">2</span> ședințe / săptămână</span>
+              </div>
+              <div class="slider-container">
+                <input type="range" min="1" max="4" value="2" class="range-slider" id="frequency-slider">
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="glass-card calculator-result">
+            <div class="result-header">
+              <h3 class="result-title">Abonament Lunar Estimat</h3>
+              <div class="price-display">
+                <span class="price-val" id="total-price">960</span>
+                <span class="price-period">RON / lună</span>
+              </div>
+            </div>
+            
+            <ul class="result-bullets" id="result-benefits">
+              <li>
+                <i data-lucide="check" style="width: 18px; height: 18px;"></i>
+                <span>Ședințe de 90 minute, fără pauză</span>
+              </li>
+              <li>
+                <i data-lucide="check" style="width: 18px; height: 18px;"></i>
+                <span id="hours-text">12 ore de pregătire efectivă lunar</span>
+              </li>
+              <li>
+                <i data-lucide="check" style="width: 18px; height: 18px;"></i>
+                <span>Evaluare inițială a nivelului inclusă gratuit</span>
+              </li>
+              <li>
+                <i data-lucide="check" style="width: 18px; height: 18px;"></i>
+                <span>Acces la materiale, teme digitale și fișe de lucru</span>
+              </li>
+            </ul>
+            
+            <a href="#contact" class="btn btn-primary" id="calc-cta-btn">
+              Solicită acest Plan
+              <i data-lucide="chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATH SANDBOX (INTERACTIVE GRAPH) -->
+    <section class="section" id="sandbox">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Interactiv</div>
+          <h2 class="section-title">Explorează Matematica <span class="gradient-accent-text">Vizual</span></h2>
+          <p class="section-subtitle">La noi, formulele nu se memorează, se înțeleg. Joacă-te cu parametrii undei de mai jos pentru a vedea cum se modifică funcția în timp real.</p>
+        </div>
+        
+        <div class="glass-card sandbox-layout">
+          <div class="sandbox-controls">
+            <h3>Visualizator de Funcții Sinusoidale</h3>
+            <p>Schimbă valorile de mai jos pentru a vedea cum se transformă graficul funcției:<br><strong>y = A · sin(ω · x + φ)</strong></p>
+            
+            <div class="sandbox-equation">
+              y = <span class="math-val" id="eq-a">40</span> · sin(<span class="math-val" id="eq-w">0.05</span>x + <span class="math-val" id="eq-p">0</span>)
+            </div>
+            
+            <!-- Amplitude Slider -->
+            <div class="calc-group">
+              <div class="calc-label">
+                <span>Amplitudine (A) - Înălțimea undei</span>
+                <span id="amp-val">40</span>
+              </div>
+              <div class="slider-container">
+                <input type="range" min="10" max="80" value="40" class="range-slider" id="slider-amp">
+              </div>
+            </div>
+            
+            <!-- Frequency Slider -->
+            <div class="calc-group">
+              <div class="calc-label">
+                <span>Frecvență (ω) - Desimea undei</span>
+                <span id="freq-math-val">0.05</span>
+              </div>
+              <div class="slider-container">
+                <input type="range" min="1" max="15" value="5" class="range-slider" id="slider-freq">
+              </div>
+            </div>
+            
+            <!-- Phase Slider -->
+            <div class="calc-group">
+              <div class="calc-label">
+                <span>Fază (φ) - Deplasarea orizontală</span>
+                <span id="phase-val">0</span>
+              </div>
+              <div class="slider-container">
+                <input type="range" min="-180" max="180" value="0" class="range-slider" id="slider-phase">
+              </div>
+            </div>
+          </div>
+          
+          <div class="sandbox-visual">
+            <svg id="math-svg" viewBox="0 0 500 400">
+              <!-- Grid background -->
+              <!-- Vertical grid lines -->
+              <line class="grid-line" x1="50" y1="0" x2="50" y2="400" />
+              <line class="grid-line" x1="100" y1="0" x2="100" y2="400" />
+              <line class="grid-line" x1="150" y1="0" x2="150" y2="400" />
+              <line class="grid-line" x1="200" y1="0" x2="200" y2="400" />
+              <line class="grid-line" x1="250" y1="0" x2="250" y2="400" />
+              <line class="grid-line" x1="300" y1="0" x2="300" y2="400" />
+              <line class="grid-line" x1="350" y1="0" x2="350" y2="400" />
+              <line class="grid-line" x1="400" y1="0" x2="400" y2="400" />
+              <line class="grid-line" x1="450" y1="0" x2="450" y2="400" />
+              
+              <!-- Horizontal grid lines -->
+              <line class="grid-line" x1="0" y1="50" x2="500" y2="50" />
+              <line class="grid-line" x1="0" y1="100" x2="500" y2="100" />
+              <line class="grid-line" x1="0" y1="150" x2="500" y2="150" />
+              <line class="grid-line" x1="0" y1="200" x2="500" y2="200" />
+              <line class="grid-line" x1="0" y1="250" x2="500" y2="250" />
+              <line class="grid-line" x1="0" y1="300" x2="500" y2="300" />
+              <line class="grid-line" x1="0" y1="350" x2="500" y2="350" />
+              
+              <!-- Axes -->
+              <line class="axis-line" x1="0" y1="200" x2="500" y2="200" /> <!-- X axis -->
+              <line class="axis-line" x1="250" y1="0" x2="250" y2="400" /> <!-- Y axis -->
+              
+              <!-- Axis labels -->
+              <text class="graph-label" x="480" y="190">x</text>
+              <text class="graph-label" x="260" y="20">y</text>
+              <text class="graph-label" x="260" y="215">0</text>
+              
+              <!-- Function Graph Path -->
+              <path id="graph-curve" class="graph-path" d="" />
+              
+              <!-- Dynamic tracking point -->
+              <circle id="tracking-dot" class="graph-point" r="6" cx="250" cy="200" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS & METHODOLOGY SECTION -->
+    <section class="section" id="benefits" style="background: rgba(255, 255, 255, 0.01);">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Metodologie</div>
+          <h2 class="section-title">Cum Reușim să <span class="gradient-accent-text">Garantăm</span> Succesul</h2>
+          <p class="section-subtitle">Metoda noastră combină tehnologia de ultimă oră cu tehnici psihopedagogice adaptate elevilor de azi.</p>
+        </div>
+        
+        <div class="benefits-grid">
+          <!-- 1 -->
+          <div class="glass-card benefit-card">
+            <div class="benefit-icon">
+              <i data-lucide="clipboard-check"></i>
+            </div>
+            <h3>Evaluare Inițială</h3>
+            <p>Fiecare elev pornește cu o testare diagnostică gratuită pentru a-și detecta cu exactitate lacunele și punctele forte.</p>
+          </div>
+          
+          <!-- 2 -->
+          <div class="glass-card benefit-card">
+            <div class="benefit-icon">
+              <i data-lucide="trending-up"></i>
+            </div>
+            <h3>Rapoarte de Progres</h3>
+            <p>Părinții primesc lunar un raport complet despre evoluția elevului, implicarea acestuia și rezultatele la teste.</p>
+          </div>
+          
+          <!-- 3 -->
+          <div class="glass-card benefit-card">
+            <div class="benefit-icon">
+              <i data-lucide="laptop"></i>
+            </div>
+            <h3>Tablă Interactivă</h3>
+            <p>Lecțiile online se desfășoară pe table digitale partajate, unde elevul poate scrie simultan cu profesorul.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Recenzii</div>
+          <h2 class="section-title">Ce Spun Elevii și <span class="gradient-accent-text">Părinții</span></h2>
+          <p class="section-subtitle">Succesul elevilor noștri este cea mai mare realizare a noastră. Iată câteva gânduri trimise de ei.</p>
+        </div>
+        
+        <div class="testimonials-slider-wrapper">
+          <button class="slider-nav slider-prev" id="prev-testimonial" aria-label="Previous Slide">
+            <i data-lucide="chevron-left"></i>
+          </button>
+          
+          <div class="testimonials-slider">
+            <div class="testimonial-track" id="testimonial-track">
+              <!-- Slide 1 -->
+              <div class="testimonial-slide active">
+                <div class="glass-card testimonial-card">
+                  <div class="quote-icon">“</div>
+                  <p class="testimonial-text">
+                    „Am început pregătirea cu 6 luni înainte de BAC, când abia luam un 5 la simulări. Profesorul a avut o răbdare incredibilă. Am luat 9.40 în examen! Explicațiile vizuale m-au ajutat enorm.”
+                  </p>
+                  <div class="testimonial-author">
+                    <span class="author-name">Alexandru Popescu</span>
+                    <span class="author-role">Elev Clasa a XII-a (Admis la Poli)</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Slide 2 -->
+              <div class="testimonial-slide">
+                <div class="glass-card testimonial-card">
+                  <div class="quote-icon">“</div>
+                  <p class="testimonial-text">
+                    „Fetița mea a participat la meditațiile de grup pentru Evaluarea Națională. La început am fost sceptică, dar grupul restrâns a motivat-o. A luat 9.80 și a intrat la liceul dorit. Recomand cu drag!”
+                  </p>
+                  <div class="testimonial-author">
+                    <span class="author-name">Elena Dumitru</span>
+                    <span class="author-role">Părinte (Elevă clasa a VIII-a)</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Slide 3 -->
+              <div class="testimonial-slide">
+                <div class="glass-card testimonial-card">
+                  <div class="quote-icon">“</div>
+                  <p class="testimonial-text">
+                    „Meditațiile online 1-la-1 sunt excepționale. Tablele digitale fac ca totul să fie mult mai clar decât la școală. Nu se mai simte ca o corvoadă, chiar am început să înțeleg frumusețea matematicii.”
+                  </p>
+                  <div class="testimonial-author">
+                    <span class="author-name">Ioana Mureșan</span>
+                    <span class="author-role">Elevă Clasa a X-a</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <button class="slider-nav slider-next" id="next-testimonial" aria-label="Next Slide">
+            <i data-lucide="chevron-right"></i>
+          </button>
+          
+          <div class="slider-dots" id="slider-dots">
+            <button class="slider-dot active" data-index="0"></button>
+            <button class="slider-dot" data-index="1"></button>
+            <button class="slider-dot" data-index="2"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section" id="faq" style="background: rgba(255, 255, 255, 0.01);">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">FAQ</div>
+          <h2 class="section-title">Întrebări <span class="gradient-accent-text">Frecvente</span></h2>
+          <p class="section-subtitle">Răspunsuri la cele mai comune curiozități legate de desfășurarea orelor de matematică.</p>
+        </div>
+        
+        <div class="faq-list">
+          <!-- Item 1 -->
+          <div class="faq-item">
+            <button class="faq-header">
+              <span>Cum se desfășoară prima ședință de evaluare?</span>
+              <span class="faq-icon-wrapper">
+                <i data-lucide="plus" class="faq-icon"></i>
+              </span>
+            </button>
+            <div class="faq-body">
+              <div class="faq-content">
+                Prima ședință este una de evaluare diagnostică gratuită (45-60 minute). Aceasta ne ajută să vedem nivelul actual al elevului, stilul lui de învățare și lacunele principale. Ulterior, propunem un plan personalizat și stabilim orarul.
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-header">
+              <span>Cum sunt formate grupurile de pregătire?</span>
+              <span class="faq-icon-wrapper">
+                <i data-lucide="plus" class="faq-icon"></i>
+              </span>
+            </button>
+            <div class="faq-body">
+              <div class="faq-content">
+                Grupurile conțin între 3 și 5 elevi din aceeași clasă și cu obiective similare (de exemplu, grup dedicat pentru Evaluare Națională nota 9+, sau grup de BAC M2). Nu amestecăm niciodată elevi de niveluri foarte diferite pentru a ne asigura că toată lumea progresează optim.
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-header">
+              <span>Ce se întâmplă dacă un elev lipsește de la o ședință?</span>
+              <span class="faq-icon-wrapper">
+                <i data-lucide="plus" class="faq-icon"></i>
+              </span>
+            </button>
+            <div class="faq-body">
+              <div class="faq-content">
+                Pentru ședințele 1-la-1, o oră poate fi recuperată sau reprogramată gratuit dacă absența este anunțată cu minimum 24 de ore înainte. Pentru grupurile de pregătire, lecțiile sunt înregistrate, iar elevul primește înregistrarea video și fișa de lucru explicată pentru a nu rămâne în urmă.
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-header">
+              <span>Pregătirea se desfășoară online sau fizic?</span>
+              <span class="faq-icon-wrapper">
+                <i data-lucide="plus" class="faq-icon"></i>
+              </span>
+            </button>
+            <div class="faq-body">
+              <div class="faq-content">
+                Desfășurăm ședințele preponderent online, folosind o platformă video dedicată și o tablă digitală interactivă (Miro/Conceptboard) care le permite elevilor să scrie direct pe ecran. Acest format oferă eficiență, flexibilitate și acces la resursele digitale salvate instant. La cerere, în funcție de locație, se pot discuta și opțiuni fizice.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALENDAR SECTION -->
+    <section class="section" id="schedule-section" style="background: rgba(255, 255, 255, 0.005);">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="badge">Calendar</div>
+          <h2 class="section-title">Disponibilitate & <span class="gradient-accent-text">Programări</span></h2>
+          <p class="section-subtitle">Alege un slot liber de 90 de minute din calendarul de mai jos. Când dai click pe un slot disponibil, acesta se va pre-selecta automat în formularul de contact.</p>
+        </div>
+        
+        <div class="glass-card calendar-wrapper">
+          <div class="calendar-header-nav">
+            <h3 id="current-week-label">Orar Săptămânal</h3>
+            <div class="calendar-legend">
+              <span class="legend-item"><span class="legend-dot available"></span>Disponibil</span>
+              <span class="legend-item"><span class="legend-dot booked"></span>Ocupat</span>
+              <span class="legend-item"><span class="legend-dot selected"></span>Selectat</span>
+            </div>
+          </div>
+          
+          <div class="calendar-grid-container">
+            <div class="calendar-grid" id="weekly-calendar-grid">
+              <!-- Grid generated dynamically via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & REGISTRATION FORM -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="glass-card contact-container">
+          <div class="contact-info">
+            <div>
+              <div class="badge">Contact</div>
+              <h2 class="contact-info-title">Fă Primul Pas Spre <span class="gradient-accent-text">Succes</span></h2>
+              <p class="contact-info-text">Completează formularul de alături și te vom contacta în maximum 24 de ore pentru a stabili ședința de evaluare gratuită.</p>
+            </div>
+            
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-card-icon">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="info-card-details">
+                  <h4>Telefon</h4>
+                  <p>+40 722 123 456</p>
+                </div>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-card-icon">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div class="info-card-details">
+                  <h4>Email</h4>
+                  <p>sigma.math.ro@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <form id="booking-form" class="contact-form" novalidate>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="text" id="form-name" class="form-input" placeholder=" " required>
+                  <label for="form-name" class="form-label">Nume Complet Elev/Părinte</label>
+                </div>
+                <div class="form-group">
+                  <input type="tel" id="form-phone" class="form-input" placeholder=" " required>
+                  <label for="form-phone" class="form-label">Număr de Telefon</label>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <select id="form-level" class="form-input" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="gimnaziu">Gimnaziu (Clasele V-VIII)</option>
+                    <option value="liceu">Liceu (Clasele IX-XII)</option>
+                  </select>
+                  <label for="form-level" class="form-label">Nivel de Studiu</label>
+                </div>
+                <div class="form-group">
+                  <select id="form-service" class="form-input" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="1on1">Pregătire Individuală (1-la-1)</option>
+                    <option value="grup">Pregătire în Grup Restrâns</option>
+                    <option value="nesigur">Nu sunt sigur încă</option>
+                  </select>
+                  <label for="form-service" class="form-label">Format Dorit</label>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <textarea id="form-message" class="form-input form-textarea" placeholder=" "></textarea>
+                <label for="form-message" class="form-label">Mesaj (opțional - ex: scopul pregătirii, dificultăți întâmpinate)</label>
+              </div>
+              
+              <label class="form-checkbox-label">
+                <input type="checkbox" id="form-terms" required>
+                <span>Sunt de acord cu prelucrarea datelor cu caracter personal conform <a href="#">Politicii de Confidențialitate</a>.</span>
+              </label>
+              
+              <div id="form-status-msg" class="form-status"></div>
+              
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                Trimite Solicitarea
+                <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#" class="logo" style="margin-bottom: 1.5rem;">
+            <div class="logo-icon">Σ</div>
+            <span>SigmaMath</span>
+          </a>
+          <p>Misiunea noastră este să facem matematica accesibilă, logică și plăcută pentru orice elev. Performanță fără stres.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Youtube"><i data-lucide="youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-nav-col">
+          <h4>Linkuri Rapide</h4>
+          <ul class="footer-nav-links">
+            <li><a href="#services">Servicii</a></li>
+            <li><a href="#calculator">Calculator Tarife</a></li>
+            <li><a href="#sandbox">Math Sandbox</a></li>
+            <li><a href="#benefits">Metodologie</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-nav-col">
+          <h4>Utile</h4>
+          <ul class="footer-nav-links">
+            <li><a href="#faq">Întrebări Frecvente</a></li>
+            <li><a href="#contact">Contact & Înscrieri</a></li>
+            <li><a href="#">Politica de Cookie-uri</a></li>
+            <li><a href="#">Politica de Confidențialitate</a></li>
+            <li><a href="#" id="admin-login-link">Portal Administrare</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-nav-col">
+          <h4>Program Contact</h4>
+          <ul class="footer-nav-links" style="color: var(--text-muted);">
+            <li>Luni - Vineri: 09:00 - 20:00</li>
+            <li>Sâmbătă: 10:00 - 16:00</li>
+            <li>Duminică: Închis</li>
+            <li style="margin-top: 1rem; color: var(--secondary); font-weight: 600;">+40 722 123 456</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 SigmaMath. Toate drepturile rezervate.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Termeni și Condiții</a>
+          <a href="#">ANPC</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ADMIN LOGIN MODAL -->
+  <div class="admin-modal" id="login-modal" style="display: none;">
+    <div class="glass-card modal-content">
+      <button class="modal-close" id="close-login-btn">&times;</button>
+      <div class="text-center" style="margin-bottom: 2rem;">
+        <div class="logo-icon" style="margin: 0 auto 1rem;">Σ</div>
+        <h3>Autentificare Administrator</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Introdu datele contului de administrator SigmaMath</p>
+      </div>
+      
+      <form id="admin-login-form" class="contact-form">
+        <div class="form-group">
+          <input type="email" id="admin-email" class="form-input" placeholder=" " required>
+          <label for="admin-email" class="form-label">Adresă de Email</label>
+        </div>
+        <div class="form-group" style="margin-top: 1.5rem;">
+          <input type="password" id="admin-password" class="form-input" placeholder=" " required>
+          <label for="admin-password" class="form-label">Parolă</label>
+        </div>
+        <div id="login-error-msg" class="form-status error" style="margin-top: 1rem; display: none;"></div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;">
+          Logare
+          <i data-lucide="log-in"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ADMIN DASHBOARD MODAL -->
+  <div class="admin-modal admin-dashboard-modal" id="dashboard-modal" style="display: none;">
+    <div class="glass-card modal-content dashboard-content">
+      <div class="dashboard-header">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <div class="logo-icon">Σ</div>
+          <div>
+            <h3>SigmaMath Admin Dashboard</h3>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Conectat ca: <span style="color: var(--secondary);">sigma.math.ro@gmail.com</span></p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <button class="btn btn-secondary" id="logout-btn" style="padding: 0.5rem 1.25rem; font-size: 0.9rem; height: auto;">
+            Deconectare
+            <i data-lucide="log-out" style="width: 16px; height: 16px;"></i>
+          </button>
+          <button class="modal-close-btn" id="close-dashboard-btn">&times;</button>
+        </div>
+      </div>
+      
+      <div class="dashboard-grid">
+        <!-- Calendar Manager (Left side) -->
+        <div class="dashboard-panel">
+          <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem; color: white;">Gestionare Sloturi Orare</h4>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">Fă click pe un slot orar din calendar pentru a-i schimba starea (Disponibil / Ocupat).</p>
+          
+          <!-- Allocation active banner -->
+          <div id="admin-allocation-banner" style="display: none; background: rgba(0, 242, 254, 0.08); border: 1px solid var(--secondary); padding: 0.75rem 1rem; border-radius: 12px; margin-bottom: 1.5rem; font-size: 0.85rem; color: white; justify-content: space-between; align-items: center; box-shadow: 0 0 15px rgba(0,242,254,0.1);">
+            <span>Se alocă slot pentru: <strong id="admin-allocation-name" style="color: var(--secondary);"></strong></span>
+            <button class="btn-danger" id="cancel-allocation-btn" style="padding: 0.25rem 0.75rem; font-size: 0.75rem; border-radius: 6px; border: 1px solid rgba(239, 68, 68, 0.3);">Anulează</button>
+          </div>
+          
+          <div class="calendar-grid-container mini-calendar">
+            <div class="calendar-grid" id="admin-calendar-grid">
+              <!-- Admin calendar generated dynamically -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Bookings Manager (Right side) -->
+        <div class="dashboard-panel">
+          <div class="dashboard-tabs" style="display: flex; gap: 1rem; border-bottom: 1px solid var(--border-light); padding-bottom: 1rem; margin-bottom: 1.5rem; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <div style="display: flex; gap: 0.5rem;">
+              <button class="tab-btn active" id="tab-requests-btn" style="background: none; border: none; color: white; padding: 0.5rem 1rem; font-weight: 600; cursor: pointer; border-radius: 8px; transition: all var(--transition-fast); font-size: 0.9rem;">
+                Cereri Noi
+              </button>
+              <button class="tab-btn" id="tab-established-btn" style="background: none; border: none; color: var(--text-muted); padding: 0.5rem 1rem; font-weight: 600; cursor: pointer; border-radius: 8px; transition: all var(--transition-fast); font-size: 0.9rem;">
+                Ore Consacrate
+              </button>
+              <button class="tab-btn" id="tab-unallocated-btn" style="background: none; border: none; color: var(--text-muted); padding: 0.5rem 1rem; font-weight: 600; cursor: pointer; border-radius: 8px; transition: all var(--transition-fast); font-size: 0.9rem;">
+                Persoane Nealocate
+              </button>
+            </div>
+            <span class="badge" style="margin-bottom: 0; text-transform: none; font-size: 0.75rem;" id="bookings-count">0 cereri</span>
+          </div>
+          
+          <div class="bookings-list-container">
+            <div class="bookings-table-wrapper">
+              <table class="bookings-table">
+                <thead>
+                  <tr>
+                    <th>Elev</th>
+                    <th>Nivel</th>
+                    <th>Format</th>
+                    <th>Slot</th>
+                    <th>Contact</th>
+                    <th>Acțiune</th>
+                  </tr>
+                </thead>
+                <tbody id="bookings-table-body">
+                  <!-- Bookings list generated dynamically -->
+                </tbody>
+              </table>
+              <div id="no-bookings-msg" style="text-align: center; padding: 3rem 1rem; color: var(--text-muted); font-style: italic; font-size: 0.95rem;">
+                Nu există cereri de înscriere înregistrate.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLOT MANAGEMENT MODAL -->
+  <div class="admin-modal" id="slot-modal" style="display: none;">
+    <div class="glass-card modal-content" style="max-width: 500px;">
+      <button class="modal-close" id="close-slot-modal-btn">&times;</button>
+      <div class="text-center" style="margin-bottom: 2rem;">
+        <h3 id="slot-modal-title" style="color: white; font-size: 1.35rem;">Gestionare Slot Orar</h3>
+        <p id="slot-modal-subtitle" style="color: var(--secondary); font-weight: 600; font-size: 0.95rem; margin-top: 0.25rem;"></p>
+      </div>
+
+      <!-- State 1: Slot is Free (Options: Block generic or Register manual student) -->
+      <div id="slot-state-free">
+        <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+          <button class="btn btn-secondary" id="btn-block-generic" style="flex: 1; font-size: 0.9rem; padding: 0.75rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+            <i data-lucide="lock" style="width: 16px; height: 16px;"></i>
+            Blochează Generic
+          </button>
+          <button class="btn btn-primary" id="btn-show-manual-register" style="flex: 1; font-size: 0.9rem; padding: 0.75rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+            <i data-lucide="user-plus" style="width: 16px; height: 16px;"></i>
+            Înscrie Elev Manual
+          </button>
+        </div>
+
+        <!-- Hidden form for manual student registration -->
+        <form id="manual-register-form" class="contact-form" style="display: none; border-top: 1px dashed var(--border-light); padding-top: 1.5rem;">
+          <h4 style="color: white; font-size: 1rem; margin-bottom: 1.5rem; text-align: left;">Date Elev:</h4>
+          
+          <div class="form-group" style="margin-bottom: 1.5rem;">
+            <input type="text" id="manual-name" class="form-input" placeholder=" " required>
+            <label for="manual-name" class="form-label">Nume Complet Elev</label>
+          </div>
+          <div class="form-group" style="margin-bottom: 1.5rem;">
+            <input type="tel" id="manual-phone" class="form-input" placeholder=" " required>
+            <label for="manual-phone" class="form-label">Număr de Telefon</label>
+          </div>
+
+          <div class="form-row" style="margin-bottom: 1.5rem;">
+            <div class="form-group">
+              <select id="manual-level" class="form-input" required>
+                <option value="" disabled selected hidden></option>
+                <option value="gimnaziu">Gimnaziu (V-VIII)</option>
+                <option value="liceu">Liceu (IX-XII)</option>
+              </select>
+              <label for="manual-level" class="form-label">Nivel de Studiu</label>
+            </div>
+            <div class="form-group">
+              <select id="manual-service" class="form-input" required>
+                <option value="" disabled selected hidden></option>
+                <option value="1on1">Solo (1-la-1)</option>
+                <option value="grup">Grup Restrâns</option>
+              </select>
+              <label for="manual-service" class="form-label">Format Ședință</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Salvează Înscrierea
+            <i data-lucide="save" style="width: 18px; height: 18px;"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- State 2: Slot is Booked / Occupied -->
+      <div id="slot-state-booked" style="display: none;">
+        <div id="booked-slot-details" style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">
+          <!-- Content populated via JS (Multiple student cards if group) -->
+        </div>
+
+        <div id="booked-slot-global-actions" style="display: flex; gap: 1rem; flex-direction: column;">
+          <!-- Global actions for the slot populated via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
